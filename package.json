@@ -1,11 +1,14 @@
 {
-  "name": "react-graphql",
+  "name": "graphql-concepts",
   "version": "1.0.0",
   "description": "",
-  "keywords": ["react", "apollo", "graphql"],
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "apollo-boost": "0.1.20",
+    "axios": "0.20.0",
+    "express": "4.17.1",
+    "express-graphql": "0.11.0",
     "graphql": "14.0.2",
     "graphql-tag": "2.10.0",
     "react": "16.5.2",
@@ -20,5 +23,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
